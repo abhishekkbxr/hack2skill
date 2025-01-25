@@ -81,15 +81,12 @@ export default function SliderAndCard() {
                 <Slider />
             </div>
 
-            {/* Fourth Section */}
+          
             <section className="text-gray-600 body-font w-screen flex justify-center items-center bg-amber-400 relative">
                 <div className="container mx-auto px-5 py-40 my-32 md:my-24">
                     <div className="flex flex-col-reverse md:flex-row items-center">
                         {/* Text Content */}
                         <div className="lg:flex-grow md:w-1/2 lg:pr-12 md:pr-8 flex flex-col items-start text-left">
-                            <p className="text-amber-400 font-bold text-xl md:text-2xl mb-2 md:mb-4">
-                                Lorem ipsum dolor sit
-                            </p>
                             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">
                                 Before they sold out
                                 <br className="hidden lg:inline-block" /> readymade gluten
