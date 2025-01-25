@@ -17,10 +17,11 @@ function Hero() {
                             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">
                                 Before they sold out
                                 <br className="hidden lg:inline-block" />
+
                                 <span>
                                     <TypeAnimation
                                         sequence={[
-                                            'readymade',
+                                            'ready',
                                             1000,
                                             'gluten',
                                             1000,

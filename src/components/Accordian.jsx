@@ -62,7 +62,7 @@ const AccordionSection = () => {
             }`}
           >
             <button
-              className="flex justify-between items-center w-full px-4 py-4 text-left focus:outline-none"
+              className="flex justify-between items-center bg-white w-full px-4 py-4 text-left focus:outline-none"
               onClick={() => toggleAccordion(index)}
             >
               <span className="font-medium">{item.title}</span>
