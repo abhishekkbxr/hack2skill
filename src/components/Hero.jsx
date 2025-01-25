@@ -24,9 +24,7 @@ function Hero() {
                                             1000,
                                             'gluten',
                                             1000,
-                                            'Guinea Page',
-                                            1000,
-                                            'Chinchillas',
+                                            'Guinea',
                                             1000
                                         ]}
                                         wrapper="span"
