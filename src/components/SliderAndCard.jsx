@@ -16,7 +16,7 @@ export default function SliderAndCard() {
                         Cursus Integer Conseq Aliquam Tristique.
                     </h1>
                     <div className="flex justify-start">
-                        <p className="group inline-flex items-center lg:w-80 py-4 rounded-4xl bg-amber-400 px-12 sm:px-16 font-bold text-black focus:outline-none hover:bg-amber-400 hover:border-2 hover:border-black hover:shadow-[0px_10px_10px_rgba(0,0,0,1)] hover:translate-y-1 text-lg transition-all duration-300">
+                        <p className="group inline-flex items-center lg:w-80 py-4 rounded-4xl bg-white px-12 sm:px-16 font-bold text-black focus:outline-none  hover:border-2 hover:border-[rgb(247,179,43)] hover:shadow-[0px_10px_10px_rgba(247, 179, 43, 1)]  hover:translate-y-1 text-lg transition-all duration-300">
                             Lorem Ipsum
                             <FaArrowRight className="ml-12 transition-transform duration-300 group-hover:rotate-90" />
                         </p>
@@ -76,7 +76,7 @@ export default function SliderAndCard() {
             </section>
 
 
-            {/* Testimonial Section */}
+            {/* slider Section */}
             <div className="relative">
                 <Slider />
             </div>
@@ -113,7 +113,7 @@ export default function SliderAndCard() {
                                 ))}
                             </div>
                             <div className="flex justify-start">
-                                <p className="group inline-flex items-center lg:w-80 py-4 rounded-4xl bg-amber-400 px-12 sm:px-16 font-bold text-black focus:outline-none hover:bg-amber-400 hover:border-2 hover:border-black hover:shadow-[0px_10px_10px_rgba(0,0,0,1)] hover:translate-y-1 text-lg transition-all duration-300">
+                                <p className="group inline-flex items-center text-white lg:w-80 py-4 rounded-4xl bg-[#262626] px-12 sm:px-16 font-bold  focus:outline-none  hover:border-2 hover:border-black hover:shadow-[0px_10px_10px_rgba(0,0,0,1)] hover:translate-y-1 text-lg transition-all duration-300">
                                     Lorem Ipsum
                                     <FaArrowRight className="ml-12 transition-transform duration-300 group-hover:rotate-90" />
                                 </p>
