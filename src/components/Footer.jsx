@@ -11,10 +11,10 @@ export default function Footer() {
                     </h2>
                     <p className="text-gray-700">Suspendisse tellus consectetur</p>
                 </div>
-                <div className="flex justify-start ">
-                    <p className="inline-flex items-center lg:w-80 py-4 rounded-4xl bg-amber-400 px-12 sm:px-16 font-bold text-black focus:outline-none hover:bg-amber-400 hover:border-2 hover:border-black hover:shadow-[0px_10px_10px_rgba(0,0,0,1)] hover:translate-y-1 text-lg transition-all duration-300">
+                <div className="flex justify-start">
+                    <p className="group inline-flex items-center lg:w-80 py-4 rounded-4xl bg-amber-400 px-12 sm:px-16 font-bold text-black focus:outline-none hover:bg-amber-400 hover:border-2 hover:border-black hover:shadow-[0px_10px_10px_rgba(0,0,0,1)] hover:translate-y-1 text-lg transition-all duration-300">
                         Lorem Ipsum
-                        <FaArrowRight className="ml-5 transition-transform duration-300 transform group-hover:rotate-90" />
+                        <FaArrowRight className="ml-12 transition-transform duration-300 group-hover:rotate-90" />
                     </p>
                 </div>
             </div>

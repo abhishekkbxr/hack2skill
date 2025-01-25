@@ -23,12 +23,12 @@ const testimonials = [
     }
 ];
 
-function TestimonialSection() {
+function Slider() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isHovered, setIsHovered] = useState(false);
-    const [isLeaving, setIsLeaving ] = useState(false);
+    const [isLeaving, setIsLeaving] = useState(false);
 
-    
+
 
 
     const nextSlide = () => {
@@ -58,7 +58,7 @@ function TestimonialSection() {
                         <img
                             src={testimonials[currentIndex].image}
                             alt={testimonials[currentIndex].name}
-                            className="w-full h-[600px] object-cover" // Set fixed height and use object-cover to maintain aspect ratio
+                            className="w-full h-[600px] object-cover"
                         />
                     </div>
 
@@ -91,18 +91,18 @@ function TestimonialSection() {
                                 </p>
 
                                 <div className="flex justify-center space-x-6">
-                                    <button
+                                    <p
                                         onClick={prevSlide}
-                                        className="p-3 rounded-full bg-gray-100 hover:bg-gray-300 transition-colors duration-500"
+                                        className="p-2 rounded-full bg-gray-100 transition-colors duration-500"
                                     >
                                         <FaArrowLeftLong className="w-6 h-6 text-black" />
-                                    </button>
-                                    <button
+                                    </p>
+                                    <p
                                         onClick={nextSlide}
-                                        className="p-3 rounded-full bg-gray-100 hover:bg-gray-300 transition-colors duration-500"
+                                        className="p-2 rounded-full bg-gray-100  transition-colors duration-500"
                                     >
                                         <FaArrowRightLong className="w-6 h-6 text-black" />
-                                    </button>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -115,4 +115,4 @@ function TestimonialSection() {
     );
 }
 
-export default TestimonialSection;
+export default Slider;
