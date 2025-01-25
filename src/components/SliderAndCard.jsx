@@ -12,11 +12,11 @@ export default function SliderAndCard() {
                         Quisque porttitor vitae vel amet neque scelerisque mattis.<br />
                         Consectetur nibh velit magna consectetur leo.
                     </p>
-                    <h1 className="text-2xl lg:text-4xl text-white font-bold mb-6">
+                    <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-bold mb-6">
                         Cursus Integer Conseq Aliquam Tristique.
                     </h1>
                     <div className="flex justify-start">
-                        <p className="group inline-flex items-center lg:w-80 py-4 rounded-4xl bg-white px-12 sm:px-16 font-bold text-black focus:outline-none  hover:border-2 hover:border-[rgb(247,179,43)] hover:shadow-[0px_10px_10px_rgba(247, 179, 43, 1)]  hover:translate-y-1 text-lg transition-all duration-300">
+                        <p className="group inline-flex items-center md:w-96 lg:w-80 py-4 rounded-4xl bg-white px-12 sm:px-16 font-bold text-black focus:outline-none hover:border-2 hover:border-[rgb(247,179,43)] hover:shadow-[0px_10px_10px_rgba(247, 179, 43, 1)] hover:translate-y-1 text-lg transition-all duration-300">
                             Lorem Ipsum
                             <FaArrowRight className="ml-12 transition-transform duration-300 group-hover:rotate-90" />
                         </p>
@@ -44,7 +44,6 @@ export default function SliderAndCard() {
                         </div>
                     </div>
 
-                    {/* Right Column Cards - Normal position */}
                     <div className="space-y-6">
                         <div className="group shadow-2xl">
                             <div className="bg-yellow-400 text-gray-900 rounded-lg p-6 shadow flex flex-col justify-between hover:bg-[#2e2d2d] hover:text-white transition-all duration-300 ease-in-out transform hover:scale-105 group-hover:animate-bounce-in">
@@ -64,7 +63,6 @@ export default function SliderAndCard() {
                             </div>
                         </div>
                     </div>
-
                 </div>
 
                 <div
@@ -76,12 +74,13 @@ export default function SliderAndCard() {
             </section>
 
 
+
             {/* slider Section */}
             <div className="relative">
                 <Slider />
             </div>
 
-          
+
             <section className="text-gray-600 body-font w-screen flex justify-center items-center bg-amber-400 relative">
                 <div className="container mx-auto px-5 py-40 my-32 md:my-24">
                     <div className="flex flex-col-reverse md:flex-row items-center">

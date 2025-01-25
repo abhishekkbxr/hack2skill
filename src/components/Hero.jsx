@@ -18,7 +18,7 @@ function Hero() {
                                 Before they sold out
                                 <br className="hidden lg:inline-block" />
 
-                                <span>
+                                <p>
                                     <TypeAnimation
                                         sequence={[
                                             'ready',
@@ -32,7 +32,7 @@ function Hero() {
                                         speed={50}
                                         repeat={Infinity}
                                     />
-                                </span>
+                                </p>
 
                             </h1>
                             <div className="mb-8 leading-relaxed flex flex-wrap md:justify-start">
